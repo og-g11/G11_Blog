@@ -26,7 +26,10 @@ namespace Blog.Domain {
 
 		[Required]
 		public virtual Content Content { get; set; }
-	}
+
+        [Required]
+        public virtual Content ContentTest { get; set; }
+    }
 
 	public enum PhotoType : byte {
 		Cover = 0,

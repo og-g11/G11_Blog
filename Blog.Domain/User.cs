@@ -32,6 +32,9 @@ namespace Blog.Domain
         public string Password { get; set; }
 
         [Required]
+        public string Salt { get; set; }
+
+        [Required]
         public bool IsDeleted { get; set; }
 
         [Required]

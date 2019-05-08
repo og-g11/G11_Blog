@@ -30,7 +30,7 @@ namespace Blog.Test
         static void PasswordManipulation()
         {
             byte[] pwd1 = PasswordHashing(Password1);
-            
+
             byte[] pwd2 = PasswordHashing(Password2, Salt);
 
             if (HashComparator(pwd1, pwd2))
@@ -45,10 +45,7 @@ namespace Blog.Test
         {
             byte[] hashedRaw;
 
-            if (saltFromOutside != null)
-                hashedRaw = HashingToolsTests.HashIt(password, saltFromOutside);
-            else
-                hashedRaw = HashingToolsTests.HashIt(password);
+            hashedRaw = HashingToolsTests.HashIt(password, saltFromOutside);
 
             Salt = HashingToolsTests.GetSalt();
             return hashedRaw;

@@ -13,12 +13,6 @@ namespace Blog.WebSite
         protected void Page_Load(object sender, EventArgs e)
         {
             var blogcon = new BlogDBContext();
-            using (var unitOfWork = new UnitOfWork(new BlogDBContext()))
-            {
-                var content = unitOfWork.Contents.GetLastContents(5);
-                GridView1.DataSource = content.ToList();
-                GridView1.DataBind();
-            }
         }
     }
 }

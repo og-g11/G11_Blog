@@ -42,14 +42,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="HashingTools.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-  </ItemGroup>
-  <ItemGroup>
-    <ProjectReference Include="..\Blog.Exception\Blog.Exceptions.csproj">
-      <Project>{a9313449-69cc-4f43-8f1a-9f2b21eb6c12}</Project>
-      <Name>Blog.Exceptions</Name>
-    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

@@ -39,5 +39,7 @@ namespace Blog.Domain
 
         [Required]
         public DateTime DateCreated { get; set; } = DateTime.Now;
+
+        public virtual ICollection<Content> Contents { get; set; }
     }
 }

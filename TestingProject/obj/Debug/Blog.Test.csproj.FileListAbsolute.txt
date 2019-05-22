@@ -1,0 +1,35 @@
+C:\Users\User\Source\Repos\og-g11\G11_Blog\TestingProject\bin\Debug\TestingProject.exe.config
+C:\Users\User\Source\Repos\og-g11\G11_Blog\TestingProject\bin\Debug\TestingProject.exe
+C:\Users\User\Source\Repos\og-g11\G11_Blog\TestingProject\bin\Debug\TestingProject.pdb
+C:\Users\User\Source\Repos\og-g11\G11_Blog\TestingProject\bin\Debug\Blog.Security.dll
+C:\Users\User\Source\Repos\og-g11\G11_Blog\TestingProject\bin\Debug\Blog.Exception.dll
+C:\Users\User\Source\Repos\og-g11\G11_Blog\TestingProject\bin\Debug\Blog.Security.pdb
+C:\Users\User\Source\Repos\og-g11\G11_Blog\TestingProject\bin\Debug\Blog.Exception.pdb
+C:\Users\User\Source\Repos\og-g11\G11_Blog\TestingProject\obj\Debug\Blog.Test.csprojAssemblyReference.cache
+C:\Users\User\Source\Repos\og-g11\G11_Blog\TestingProject\obj\Debug\Blog.Test.csproj.CoreCompileInputs.cache
+C:\Users\User\Source\Repos\og-g11\G11_Blog\TestingProject\obj\Debug\Blog.Test.csproj.CopyComplete
+C:\Users\User\Source\Repos\og-g11\G11_Blog\TestingProject\obj\Debug\TestingProject.exe
+C:\Users\User\Source\Repos\og-g11\G11_Blog\TestingProject\obj\Debug\TestingProject.pdb
+D:\Users\david\Desktop\G11_Blog\TestingProject\bin\Debug\TestingProject.exe.config
+D:\Users\david\Desktop\G11_Blog\TestingProject\bin\Debug\TestingProject.exe
+D:\Users\david\Desktop\G11_Blog\TestingProject\bin\Debug\TestingProject.pdb
+D:\Users\david\Desktop\G11_Blog\TestingProject\bin\Debug\Blog.Security.dll
+D:\Users\david\Desktop\G11_Blog\TestingProject\bin\Debug\Blog.Exception.dll
+D:\Users\david\Desktop\G11_Blog\TestingProject\bin\Debug\Blog.Security.pdb
+D:\Users\david\Desktop\G11_Blog\TestingProject\bin\Debug\Blog.Exception.pdb
+D:\Users\david\Desktop\G11_Blog\TestingProject\obj\Debug\Blog.Test.csprojAssemblyReference.cache
+D:\Users\david\Desktop\G11_Blog\TestingProject\obj\Debug\Blog.Test.csproj.CoreCompileInputs.cache
+D:\Users\david\Desktop\G11_Blog\TestingProject\obj\Debug\Blog.Test.csproj.CopyComplete
+D:\Users\david\Desktop\G11_Blog\TestingProject\obj\Debug\TestingProject.exe
+D:\Users\david\Desktop\G11_Blog\TestingProject\obj\Debug\TestingProject.pdb
+C:\Users\Nika\Desktop\GiT Projects\Group 11\G11_Blog_22_05_2019\G11_Blog\TestingProject\bin\Debug\TestingProject.exe.config
+C:\Users\Nika\Desktop\GiT Projects\Group 11\G11_Blog_22_05_2019\G11_Blog\TestingProject\bin\Debug\TestingProject.exe
+C:\Users\Nika\Desktop\GiT Projects\Group 11\G11_Blog_22_05_2019\G11_Blog\TestingProject\bin\Debug\TestingProject.pdb
+C:\Users\Nika\Desktop\GiT Projects\Group 11\G11_Blog_22_05_2019\G11_Blog\TestingProject\bin\Debug\Blog.Security.dll
+C:\Users\Nika\Desktop\GiT Projects\Group 11\G11_Blog_22_05_2019\G11_Blog\TestingProject\bin\Debug\Blog.Exception.dll
+C:\Users\Nika\Desktop\GiT Projects\Group 11\G11_Blog_22_05_2019\G11_Blog\TestingProject\bin\Debug\Blog.Security.pdb
+C:\Users\Nika\Desktop\GiT Projects\Group 11\G11_Blog_22_05_2019\G11_Blog\TestingProject\bin\Debug\Blog.Exception.pdb
+C:\Users\Nika\Desktop\GiT Projects\Group 11\G11_Blog_22_05_2019\G11_Blog\TestingProject\obj\Debug\Blog.Test.csprojResolveAssemblyReference.cache
+C:\Users\Nika\Desktop\GiT Projects\Group 11\G11_Blog_22_05_2019\G11_Blog\TestingProject\obj\Debug\Blog.Test.csproj.CoreCompileInputs.cache
+C:\Users\Nika\Desktop\GiT Projects\Group 11\G11_Blog_22_05_2019\G11_Blog\TestingProject\obj\Debug\TestingProject.exe
+C:\Users\Nika\Desktop\GiT Projects\Group 11\G11_Blog_22_05_2019\G11_Blog\TestingProject\obj\Debug\TestingProject.pdb

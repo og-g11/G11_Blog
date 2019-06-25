@@ -50,7 +50,30 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="BlogDBContext.cs" />
+    <Compile Include="Implementation\CategoryRepository.cs" />
+    <Compile Include="Implementation\CommentRepository.cs" />
+    <Compile Include="Implementation\ContentTypeRepository.cs" />
+    <Compile Include="Implementation\PhotoRepository.cs" />
+    <Compile Include="Implementation\Transaction.cs" />
+    <Compile Include="Implementation\UnitOfWork.cs" />
+    <Compile Include="Interfaces\ICategoryRepository.cs" />
+    <Compile Include="Interfaces\ICommentRepository.cs" />
+    <Compile Include="Implementation\ContentRepository.cs" />
+    <Compile Include="Interfaces\IContentRepository.cs" />
+    <Compile Include="Interfaces\IContentTypeRepository.cs" />
+    <Compile Include="Interfaces\IPhotoRepository.cs" />
+    <Compile Include="Interfaces\IRepository.cs" />
+    <Compile Include="Interfaces\ITransaction.cs" />
+    <Compile Include="Interfaces\IUnitOfWork.cs" />
+    <Compile Include="Interfaces\IUserRepository.cs" />
+    <Compile Include="Migrations\201906231736050_Blog-V1.cs" />
+    <Compile Include="Migrations\201906231736050_Blog-V1.Designer.cs">
+      <DependentUpon>201906231736050_Blog-V1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Implementation\Repository.cs" />
+    <Compile Include="Implementation\UserRepository.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
@@ -61,6 +84,15 @@
       <Project>{e4de94d8-9c42-471a-80ef-a34359cf3457}</Project>
       <Name>Blog.Domain</Name>
     </ProjectReference>
+    <ProjectReference Include="..\Blog.Logger\Blog.Logger.csproj">
+      <Project>{985ed8db-a226-426f-826b-42efa6187979}</Project>
+      <Name>Blog.Logger</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Migrations\201906231736050_Blog-V1.resx">
+      <DependentUpon>201906231736050_Blog-V1.cs</DependentUpon>
+    </EmbeddedResource>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

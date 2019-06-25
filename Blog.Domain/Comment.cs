@@ -20,9 +20,6 @@ namespace Blog.Domain {
 		public bool IsDeleted { get; set; }
 
 		[Required]
-		public virtual Content Content { get; set; }
-
-		[Required]
 		public virtual User Creator { get; set; }
 	}
 }

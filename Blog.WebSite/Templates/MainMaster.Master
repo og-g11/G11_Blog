@@ -1,0 +1,109 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="MainMaster.master.cs" Inherits="Blog.WebSite.Templates.MainMaster" %>
+
+<!DOCTYPE html>
+
+<html>
+<head runat="server">
+	<title></title>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+      <link rel="stylesheet" href="style.css">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.0/jquery.min.js"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+
+	<asp:ContentPlaceHolder ID="headerContent" runat="server">
+	</asp:ContentPlaceHolder>
+</head>
+<body>
+	<form id="form1" runat="server">
+		<nav class="navbar navbar-default" id="pnlHead">
+			<div class="container">
+				<div class="navbar-header">
+					<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#blogNavbar">
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+					</button>
+					<a class="navbar-brand" href="#">logo</a>
+				</div>
+				<div id="pnlUser">
+
+					<div class="collapse navbar-collapse" id="pnlUserData">
+						
+						<ul class="nav navbar-nav navbar-right">
+                            <li><asp:HyperLink NavigateUrl="~/Account/Profile.aspx" ID="lblUserID" runat="server" Text="Profile" /></li>        
+							<li><span id="lblFirstName">firstname</span></li>
+							<li><span id="lblLastName">lastname</span></li>
+						</ul>
+					</div>
+				</div>
+			</div>
+		</nav>
+
+		<section runat="server" id="secFilter">
+			<div class="container filter-block">
+				<div class="row">
+					<div class="col-md-10">
+						<div class="form-group">
+							<div class="row">
+								<div class="col-md-2">
+									<asp:Label for="sel1" runat="server">category</asp:Label>
+									<asp:DropDownList runat="server" CssClass="form-control" ID="sel1">
+										<asp:ListItem>Item1</asp:ListItem>
+										<asp:ListItem>Item2</asp:ListItem>
+										<asp:ListItem>Item3</asp:ListItem>
+									</asp:DropDownList>
+								</div>
+								<div class="col-md-2 txtsearch">
+									<asp:Label for="textsearch" runat="server" class="control-label">text</asp:Label>
+									<asp:TextBox class="form-control" type="text" placeholder="Search" aria-label="textsearch" runat="server"></asp:TextBox>
+								</div>
+								<div class="col-md-3">
+									<asp:Label for="startdate" runat="server">Start date:</asp:Label>
+									<asp:TextBox type="date" ID="startdate" name="trip-start" value="2018-07-22" min="2018-01-01" max="2018-12-31" class="form-control" runat="server"></asp:TextBox>
+
+								</div>
+								<div class="col-md-3">
+									<asp:Label for="enddate" runat="server">end date:</asp:Label>
+									<asp:TextBox type="date" ID="enddate" name="trip-start" value="2018-07-22" min="2018-01-01" max="2018-12-31" class="form-control" runat="server"></asp:TextBox>
+								</div>
+								<div class="col-md-2">
+									<asp:Label for="period" runat="server">period</asp:Label>
+									<asp:TextBox class="form-control" type="text" aria-label="period" runat="server"></asp:TextBox>
+								</div>
+							</div>
+						</div>
+
+					</div>
+					<div class="col-md-2">
+						<div class="filter-button">
+							<button type="submit">filter</button>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+
+		<asp:ContentPlaceHolder ID="contentMain" runat="server" />
+	</form>
+	<div class="container-fluid bg-2 text-center">
+	</div>
+	<footer>
+		<div class="wawe-effect">
+			<div class="ocean">
+				<div class="wave"></div>
+				<div class="wave"></div>
+			</div>
+		</div>
+		<div class="container">
+			<div class="row">
+				<div class="col-md-12">
+					<div class="footer-menu center-block">
+					</div>
+				</div>
+			</div>
+		</div>
+	</footer>
+</body>
+</html>

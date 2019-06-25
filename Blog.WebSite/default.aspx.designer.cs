@@ -7,11 +7,13 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-namespace Blog.WebSite {
-    
-    
-    public partial class _default {
-        
+namespace Blog.WebSite
+{
+
+
+    public partial class _default
+    {
+
         /// <summary>
         /// form1 control.
         /// </summary>

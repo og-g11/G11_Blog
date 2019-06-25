@@ -10,10 +10,10 @@ using System.Data.Entity.Infrastructure.Annotations;
 using System.ComponentModel.DataAnnotations.Schema;
 
 namespace Blog.Repository {
-	public class BlogDBContext : DbContext {
+	internal class BlogDBContext : DbContext {
 		public BlogDBContext() {
-			Database.CreateIfNotExists();
-		}
+            //Database.SetInitializer(new MigrateDatabaseToLatestVersion<BlogDBContext, Migrations.Configuration>());
+        }
 
 		public virtual DbSet<User> Users { get; set; }
 		public virtual DbSet<Category> Categoties { get; set; }

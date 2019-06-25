@@ -1,0 +1,14 @@
+﻿using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+using Blog.Domain;
+
+namespace Blog.Repository
+{
+    public interface IContentRepository : IRepository<Content>
+    {
+        IEnumerable<Content> GetLastContents(int count);
+    }
+}

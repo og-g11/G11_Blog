@@ -26,10 +26,14 @@ namespace Blog.Domain
         [Column(TypeName = "VarChar")]
         public string Email { get; set; }
 
-        //ToDo: Paroli Hashirebuli
+        //ToDo: Paroli Hashirebuli unda iyos (jer sheveshvat)
         [Required]
         [MaxLength(50)]
         public string Password { get; set; }
+
+				//sheileba ar dagvchirdes
+				[NotMapped]
+        public string TextPassword { get; set; }
 
         [Required]
         public string Salt { get; set; }
@@ -39,5 +43,7 @@ namespace Blog.Domain
 
         [Required]
         public DateTime DateCreated { get; set; } = DateTime.Now;
+
+        public ICollection<Content> Contents { get; set; }
     }
 }

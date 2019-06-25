@@ -1,0 +1,144 @@
+﻿
+.bg-2 {
+    height: calc(100vh - 247px);
+}
+
+
+.bg-4 {
+    background-color: black;
+    height: 200px;
+    color: white;
+    padding-top: 40px;
+}
+
+.wawe-effect {
+    overflow: hidden;
+    height: 198px;
+    width: 100%;
+    position: absolute;
+/**    margin-top: -198px;*/
+    margin-top: 0px;
+}
+
+.ocean {
+    height: 5%;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    /*background: #015871;*/
+}
+
+.wave {
+    background: url(../Images/wave.svg) repeat-x;
+    position: absolute;
+    top: 30px;
+    width: 6400px;
+    height: 198px;
+    animation: wave 7s cubic-bezier( 0.36, 0.45, 0.63, 0.53) infinite;
+    transform: translate3d(0, 0, 0);
+}
+
+    .wave:nth-of-type(2) {
+        top: 30px;
+        animation: wave 7s cubic-bezier( 0.36, 0.45, 0.63, 0.53) -.125s infinite, swell 7s ease -1.25s infinite;
+        opacity: 1;
+    }
+
+@keyframes wave {
+    0% {
+        margin-left: 0;
+    }
+
+    100% {
+        margin-left: -1600px;
+    }
+}
+
+@keyframes swell {
+    0%, 100% {
+        transform: translate3d(0,-25px,0);
+    }
+
+    50% {
+        transform: translate3d(0,5px,0);
+    }
+}
+
+footer {
+    position: relative;
+    height: 150px;
+    /* background: #135468;*/
+}
+
+.filter-button button {
+    border-radius: 5px;
+    width: calc(100% - 47px);
+    border: none;
+    text-transform: uppercase;
+    font-size: 24px;
+    color: white;
+    letter-spacing: 1px;
+    background: url(bok-now-arrow.png)no-repeat center right;
+    cursor: pointer;
+    height: 100%;
+}
+
+.filter-button {
+    border-radius: 5px;
+    background: #94bdca;
+    box-shadow: 0px 0px 50px 0px rgba(19, 84, 104, 0.1);
+    width: 100%;
+    height: 185px;
+    -webkit-clip-path: polygon(0% 0%, 100% 0%, 91% 83%, 0% 100%);
+    clip-path: polygon(0% 0%, 100% 0%, 91% 83%, 0% 100%);
+    width:120px;
+    height:60px;
+    margin-bottom:30px;
+}
+
+#textsearch {
+    height: 36px;
+}
+
+.navbar-default {
+    height: 70px;
+    border-bottom: 3px solid #135468 !important;
+}
+
+.filter-block .form-control {
+    border: 1px solid #286090;
+}
+
+.navbar-right span {
+    padding-right: 30px;
+}
+
+.navbar-right {
+    padding-top: 20px;
+}
+#lblUserID{
+    padding-top:0px;
+}
+.footer{
+    margin-top:90px;
+}
+.usernamelbl, .passwordlbl {
+    background-color: aliceblue !important;
+    border: 1px solid #135468 !important;
+}
+.loginbtn, .registerbtn {
+    background-color: #135468 !important;
+    color: aliceblue !important;
+}
+*:focus {
+    outline: none;
+}
+button:active {
+    outline: none !important;
+    border: none !important;
+    box-shadow: none !important;
+}
+button:focus {
+    outline: 0 !important;
+}
